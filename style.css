@@ -1,0 +1,338 @@
+/* Roboto_font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* header_part_style_start */
+
+.header_part {
+    background-image: url('./Images/header.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header_contant {
+    padding: 100px 120px;
+}
+
+.header_contant .header_title h1 {
+    font-size: 55px;
+    color: #fff;
+}
+
+.header_catagory {
+    color: #fff;
+    margin-top: 160px;
+    display: flex;
+}
+
+.header_catagory .catagory_one,
+.catagory_two {
+    width: 350px;
+}
+
+.fa-solid,
+.fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-top: 35px;
+    font-size: 40px;
+    color: yellow;
+}
+
+
+/* header_part_style_end */
+
+
+/* Learn More. Book More. Earn More part style start */
+
+.part_two {
+    padding: 50px 120px;
+    background-color: #141824;
+}
+
+.learn_more {
+    margin: 0px auto;
+    color: #fff;
+    text-align: center;
+    padding: 66px 100px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.learn_more i {
+    color: #fff;
+    padding: 18px;
+}
+
+.learn_more h1 {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.services .card {
+    padding: 50px 30px;
+    position: relative;
+}
+
+.card_item::before {
+    content: "";
+    position: absolute;
+    width: 234px;
+    height: 36px;
+    left: 69px;
+    top: 43px;
+    background-color: #F1C50E;
+}
+
+.services .card h3 {
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+}
+
+.services .card span {
+    background-color: rgb(223, 223, 72);
+}
+
+.services .card p {
+    color: #fff;
+    margin-top: 50px;
+}
+
+
+/* Learn More. Book More. Earn More part style end */
+
+
+/* Acces_The_industy_style_start */
+
+.part_three {
+    background-color: #E8EAE3;
+    padding: 100px 120px;
+}
+
+.access_the_left {
+    padding: 65px 25px;
+    position: relative;
+}
+
+.access_the_title::before {
+    content: "";
+    position: absolute;
+    width: 267px;
+    height: 40px;
+    left: 98px;
+    top: 131px;
+    background-color: #F1C50E;
+}
+
+.access_the_left h1 {
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    z-index: 1;
+}
+
+.access_the_left p {
+    font-weight: 400;
+    padding: 95px 0px 35px 0px;
+}
+
+.access_the_left .Button {
+    padding: 8px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+}
+
+.access_the_left .Button:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: rgb(15, 14, 14);
+    cursor: pointer;
+}
+
+.access_the {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.access_the_right img {
+    width: 80%;
+    height: 414px;
+}
+
+.access_the_left i {
+    font-size: 51px;
+    color: #efce55;
+    padding: 7px;
+}
+
+
+/* Acces_The_industy_style_end */
+
+
+/* Galary_part_style_start */
+
+.galary {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.galary .items img {
+    width: 100%;
+    height: 320px;
+}
+
+
+/* Galary_part_style_end */
+
+
+/* Start Earning More Today part style start */
+
+.part_six {
+    background-color: #E8EAE3;
+    padding: 100px 120px;
+}
+
+.start_earning {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.start_earning_contant_title {
+    position: relative;
+    margin: 30px 0px;
+}
+
+.start_earning_before::before {
+    content: "";
+    position: absolute;
+    width: 267px;
+    height: 40px;
+    left: 92px;
+    top: -3px;
+    background-color: #F1C50E;
+}
+
+.start_earning_before h1 {
+    position: absolute;
+    z-index: 1;
+}
+
+.start_earning_contant_title p {
+    padding-top: 54px;
+}
+
+.start_earning_pic img {
+    width: 80%;
+    height: 414px;
+}
+
+.start_earning_contant_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info_one h3,
+.info_two h3 {
+    margin: 17px 0px;
+}
+
+.info_one i,
+.info_two i {
+    color: #F0C927;
+}
+
+
+/* Start Earning More Today part style end */
+
+
+/* footer_part_part_style_start */
+
+footer {
+    padding: 100px 120px;
+    background-color: #141824;
+}
+
+.footer_part {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact_us {
+    color: #fff;
+    position: relative;
+}
+
+.contact_us_title h1 {
+    z-index: 1;
+    position: absolute;
+}
+
+.contact_us_title::before {
+    content: "";
+    position: absolute;
+    width: 234px;
+    height: 36px;
+    left: 59px;
+    top: 65px;
+    background-color: #F1C50E;
+}
+
+.contact_us_small {
+    padding: 61px 42px 20px 0px;
+}
+
+.contact_us i {
+    font-size: 42px;
+    padding: 10px;
+    color: #c5ab38;
+}
+
+.social_icons i {
+    font-size: 26px;
+    color: #FFB600;
+}
+
+
+/* form_style_start */
+
+form {
+    text-align: center;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 69%;
+    background-color: transparent;
+    padding: 10px 15px;
+    border: 1px solid white;
+    color: #fff;
+}
+
+input[type=submit] {
+    padding: 10px 15px;
+}
+
+
+/* form_style_end */
+
+
+/* footer_part_style_end */
